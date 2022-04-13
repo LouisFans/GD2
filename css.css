@@ -1,0 +1,119 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background:#7041ff;
+}
+.container{
+    width: 900px;
+    height: 500px;
+    background-image: url(https://haycafe.vn/wp-content/uploads/2021/12/Hinh-nen-cong-nghe-2k.jpg);
+    background-size: cover;
+    
+}
+form{
+    width: 50%;
+    height: 100%;
+    background: #fff;
+    
+    position: relative;
+}
+form .tittle{
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 30px;
+        margin-bottom: 60px;
+
+}
+form input{
+    width: 70%;
+    display: block;
+    margin: 0px auto;
+    margin-top: 15px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #7041ff;
+    border-left: 2px solid #7041ff;
+    border-radius: 5px;
+}
+form .login{
+    width: 200px;
+    height: 50px;
+    margin: 18px auto;
+    display: block;
+    border: none;
+    background: #7041ff;
+    color: #fff;
+    font-weight: bolder;
+    
+    transition: 0.4s;
+}
+form .login:hover{
+    background: #1ac7b6;
+    border-radius: 15px;
+}
+form .note{
+   left: 100px;
+   color: #3d3d3bce;
+   font-style: oblique;
+   list-style: none;
+   position: absolute;
+   
+   writing-mode: horizontal-tb; 
+   display: block;
+  
+    
+}
+form  a{
+    color: rgb(62, 87, 216);
+    list-style-type: none;
+}
+form .note a:hover{
+    color: rgb(214, 35, 35);
+}
+form .icon{
+    position: absolute;
+    right:10px;
+    bottom: 10px;
+
+}
+form .icon i{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+form .icon i:hover{
+    background-color: #1ac7b6;
+    border-radius: 0px;
+}
+.form-control {
+    padding: 8px 12px;
+    outline: none;
+  }
+  
+.form-group.invalid .form-control {
+    border-color: #f33a58;  
+  }
+  .form-group.invalid .form-message {
+    color: #f33a58;
+    margin-left: 70px;
+    margin-top: 10px;
+    font-size: 12px;
+  }
+@media (min-width: 320px) and (max-width: 700px) {
+    body {
+        color: rgb(14, 14, 13);
+    }
+}
